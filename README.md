@@ -39,10 +39,10 @@ end project_reti_logiche;
 
   Address | Content
 ----------|-----------------------------
-0         | Number of columns
-1         | Number of rows
-2 .. N    | Original image pixels
-N+1 .. M  | Equalized image pixels
+0         | Number of columns (C)
+1         | Number of rows (R)
+2 ... R*C+1    | Original image pixels
+R*C+2 ... 2(R*C)+1  | Equalized image pixels
 
 **Constraints**
 

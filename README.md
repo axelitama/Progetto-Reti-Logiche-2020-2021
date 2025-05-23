@@ -82,5 +82,8 @@ Post-syntesis simulation details:
 - Design clock period: 100 ns
 
 
-## Report
+## More Information
+
 For more information consider the report file [relazione.pdf](relazione.pdf) in Italian.
+
+Schemes and diagrams of the data path and the FSM Control unit can be found in [deliverables](deliverables).

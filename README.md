@@ -64,8 +64,8 @@ Given the image's minimum (`MIN_PIXEL_VALUE`) and maximum (`MAX_PIXEL_VALUE`) gr
 
 ## Architecture
 The VHDL component is divided into two main modules:
-- **Data path**: combines combinational and sequential logic, including computation units and registers for image processing and histogram equalisation.
-- **Control unit**: a Moore finite state machine that coordinates the data path operations.
+- **Data Path**: combines combinational and sequential logic, including computation units and registers for image processing and histogram equalisation.
+- **Control Unit**: a Moore finite state machine that coordinates the data path operations.
 
 The architecture uses modular components (adders, subtractors, muxes, registers) to facilitate structural description and synthesis efficiency.
 
@@ -86,4 +86,4 @@ Post-syntesis simulation details:
 
 For more information consider the report file [relazione.pdf](relazione.pdf) in Italian.
 
-Schemes and diagrams of the data path and the FSM Control unit can be found in [deliverables](deliverables).
+Schemes and diagrams of the Data Path and the FSM Control Unit can be found in [deliverables](deliverables).

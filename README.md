@@ -41,8 +41,8 @@ end project_reti_logiche;
 ----------|-----------------------------
 0         | Number of columns (C)
 1         | Number of rows (R)
-2 ... R*C+1    | Original image pixels
-R*C+2 ... 2(R*C)+1  | Equalized image pixels
+2 ... R×C+1    | Original image pixels
+R×C+2 ... 2×R×C+1  | Equalized image pixels
 
 **Constraints**
 

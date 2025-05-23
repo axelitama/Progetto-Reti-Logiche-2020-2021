@@ -1,4 +1,4 @@
-# Histogram Equalization Hardware Component (VHDL)
+# Histogram Equalization Hardware Component
 
 This repository contains the VHDL implementation of a hardware component for image histogram equalization, developed for the course of **Reti Logiche** (Digital Logic Design) a.y. 2020–2021 at **Politecnico di Milano** .
 
